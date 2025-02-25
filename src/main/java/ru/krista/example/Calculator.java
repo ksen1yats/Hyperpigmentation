@@ -22,9 +22,11 @@ public class Calculator{
             System.exit(1);
         }
         try{
+             //первый символ строки
             firstNum = Integer.parseInt(tokens[0]);
-            //первый символ строки с операцией
+            // операция 
             operation = tokens[1].charAt(0);
+            // второй символ строки
             secondNum = Integer.parseInt(tokens[2]);
         }
         catch(NumberFormatException e){
